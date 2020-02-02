@@ -29,7 +29,6 @@ using namespace Rcpp;
 int windowsInterruptGAMS(int pid)
 {
 #ifdef __MINGW32__
-    //IntPtr receiver;
     COPYDATASTRUCT cds;
     const char* msgText = "GAMS Message Interrupt";
 
