@@ -9,5 +9,5 @@ Description: Collection of low level utility functions that are used by GAMS MIR
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
-Imports: Rcpp (>= 1.0.3)
+Imports: Rcpp (>= 1.0.2)
 LinkingTo: Rcpp
