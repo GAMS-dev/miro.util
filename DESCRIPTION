@@ -1,7 +1,7 @@
-Package: miro.util
+Package: miroUtil
 Type: Package
 Title: Utility function for MIRO
-Version: 0.1.0
+Version: 0.2.0
 Authors@R: c(
     person("Frederik", "Proske", role = c("aut", "cre"),
            email = "fproske@gams.com"))
@@ -9,5 +9,6 @@ Description: Collection of low level utility functions that are used by GAMS MIR
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
-Imports: Rcpp (>= 1.0.2)
-LinkingTo: Rcpp
+LinkingTo: cpp11
+SystemRequirements: C++11
+RoxygenNote: 7.1.2
